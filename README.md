@@ -1,1 +1,5 @@
 # ECE285-Project-Image-to-Image-Translation-with-Conditional-Adversarial-Networks
+
+In my project, I have tried to re-implement the paper "Image-to-Image Translation with Conditional Adversarial Networks" which is written by Phillip Isola, Jun-Yan Zhu, Tinghui Zhou and Alexei A. Efros. Different from the experiments in this paper, I will try to make an experiment on a different dataset from all the datasets used in this paper. I make a conditonal GAN to achieve the task of image to image translation on the dataset: ADE20K dataset. From the result, I find that conditional GAN has a good performance on image-to-image translation task.
+
+From my result, I find that with the help of conditional GAN, we can make a relatively good performance on the image-to-image translation task. It can work on different kinds of dataset and different kinds of image-to-image tasks (for example, seg image to real image). The loss of the experiment is relatively low, the PSNR value of the result images compared with label images is in a good range and the result image is relatively likely to the expected label image.
